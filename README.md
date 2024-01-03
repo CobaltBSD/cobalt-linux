@@ -5,4 +5,4 @@ Cobalt Linux is also designed with conformity as a goal, as the BSD variant make
 
 Cobalt Linux contains no package manager, other than the `pkg` shell script which provides a way of automating the build process. Other than what is provided on install, how you maintain your system is up to you. Of course, distribution-agnostic package managers like Nix and pkgsrc are good options as well, but out of scope for the base system provided.
 
-Furthermore, Cobalt Linux can be installed in a sandbox within another distribution
+Furthermore, Cobalt Linux can be installed in a sandbox within another distribution, using bwrap (or chroot, if you like living dangerously). In doing so, you won't need to install a bootloader, kernel and some other packages.
