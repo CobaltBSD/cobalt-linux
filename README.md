@@ -4,3 +4,5 @@ A micro-distribution of Linux based off of Cobalt BSD. This is not really a full
 The base system is also slightly more conformant with other FOSS systems, such as by using glibc and LLVM. For this reason, you are less likely to run into unusual issues while setting everything up.
 
 Cobalt Linux contains no package manager, other than the `pkg` shell script which provides a way of automating the build process. Other than what is provided on install, how you maintain your system is up to you. Of course, distribution-agnostic package managers like Nix and pkgsrc are good options as well, but out of scope for the base system provided.
+
+Furthermore, Cobalt Linux can be installed in a sandbox within another distribution
